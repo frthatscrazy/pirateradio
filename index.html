@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pirate Radio</title>
+    
+    <!-- CloudRadio Player CSS -->
+    <link href="https://cdn2.cloudrad.io/player/k.min.css" type="text/css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400" type="text/css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pirate Radio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Pirate Radio</h2>
+            <p>Your source for uncensored and unfiltered music.</p>
+        </section>
+
+        <section id="player">
+            <h2>Live Stream</h2>
+            
+            <!-- CloudRadio Player Widget -->
+            <div class="cloudradio-player">
+                <div id="stream"></div>
+            </div>
+
+            <!-- CloudRadio Player JavaScript -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+            <script src="https://cdn2.cloudrad.io/player/k.min.js"></script>
+            <script src="https://cdn2.cloudrad.io/birdhau5/stream/p1.min.js"></script>
+        </section>
+
+        <section id="about">
+            <h2>About Pirate Radio</h2>
+            <p>Pirate Radio is a free, underground station bringing you the best music from all genres, without ads or interruptions.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email us at: <a href="mailto:pirate@radio.com">pirate@radio.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Pirate Radio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
