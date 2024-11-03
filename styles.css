@@ -54,4 +54,30 @@ footer {
     margin: 0 auto;
     width: 100%;
     max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cloudradio-player span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.cloudradio-player #stream {
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .cloudradio-player {
+        width: 90%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
